@@ -48,11 +48,11 @@
 
 		getInfo : function() {
 			return {
-				longname : 'Pre plugin',
-				author : 'Marchenko Alexandr',
-				authorurl : 'http://webdiz.com.ua',
-				infourl : 'http://webdiz.com.ua',
-				version : "1.0"
+				longname : 'Code Highlight Plugin',
+				author : 'Yegor Popovich',
+				authorurl : 'http://g.if.ua',
+				infourl : 'http://g.if.ua',
+				version : "0.1"
 			};
 		},
 		
