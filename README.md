@@ -12,14 +12,19 @@ Installation
 2. Update TinyMCE configuration (add plugin and button)
 
      tinyMCE.init({
-          theme : "advanced",
-          ...
-          plugins : "...,codehighlight,...",
-          ...
-          theme_advanced_buttons1 : "...,codehighlight,..."
+     theme : "advanced",
+     ...
+     plugins : "...,codehighlight,...",
+     ...
+     theme_advanced_buttons1 : "...,codehighlight,..."
      });
 
 3. Add plugin css to page. (This is highlight.js css. Can be replaced any another highlight.js theme css).
 4. If your TinyMCE install has another language - copy en.js and en_dlg.js and edit.
+
+Tips
+-----------------------------
+* If you want to remove code block - edit it and remove all text inside. Block will be deleted automatically.
+* Do not change selection in TinyMCE while editing code in window. Selection may be replaced on insert
 
 Plugin based on http://code.google.com/p/tinymce-pre-plugin/ and this article http://freaksidea.com/javascript/show-3-delaem-syntax-highlighter-plugin-dlia-tinymce
