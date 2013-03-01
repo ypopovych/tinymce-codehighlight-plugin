@@ -5,10 +5,10 @@ Code highlighting plugin for TinyMCE
 
 Installation
 ----------------------------
-1. Clone repository to TinyMCE plugins
-	git clone git://github.com/IICUX/tinymce-codehighlight-plugin.git codehighlight
+1. Clone repository to TinyMCE plugins ::
+	$ git clone git://github.com/IICUX/tinymce-codehighlight-plugin.git codehighlight
 
-2. Update TinyMCE configuration (add plugin and button)
+2. Update TinyMCE configuration (add plugin and button) ::
 	tinyMCE.init({
 		theme : "advanced",
 		...
